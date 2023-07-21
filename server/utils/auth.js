@@ -1,3 +1,4 @@
+// Setup JSON Web Token (JWT) authentication middleware
 const jwt = require('jsonwebtoken');
 
 // set token secret and expiration date
@@ -32,3 +33,11 @@ module.exports = {
   },
     
 };
+
+
+//JWT 
+// A JWT consists of three parts, separated by dots (.):
+
+// Header: Contains metadata about the token, such as the type (JWT) and the signing algorithm used.
+// Payload: Contains the claims or statements about the user or entity. Claims can be predefined (standard claims) or custom-defined (private claims).
+// Signature: Used to verify the integrity of the token and ensure it has not been tampered with. The signature is created using a secret key or a public/private key pair, depending on the signing algorithm used.
