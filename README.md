@@ -15,6 +15,7 @@
 ![License](https://img.shields.io/static/v1?label=license&message=MIT&color=${badge.color})
 
 ## Description
+Google Books API is a full-stack MERN application that allows you to create an account, search for, save and delete books in a database. The app uses GraphQL to query the database and React to render the front end. The app is deployed on Heroku and uses MongoDB for the database. 
 
 ## Quick Links
 
@@ -38,34 +39,35 @@ To install and use this repo, please follow the below instructions:
 - Pull the repository files to your local machine
 - Open the repository in your code editor of choice
 - Open the CLI terminal and run the command `npm install` to install the required dependencies
-- Run the command `npm run build` to build the application
-- Finally run the command `npm start` to start the server and run the application
-- The application will be running on `http://localhost:3000/`
+- Finally run the command `npm run develop` to start the server and run the application
+- The application will be running on `http://localhost:3001/`
 
 ## Usage
 
-To use the web based version no installation is required. Simply navigate to the deployed application [URL](https://rocky-lake-08346-97f05045468c.herokuapp.com/) and begin using the app in your browser. J.A.T.E. is a Progressive Web App (PWA) and can be installed locally on any device. Simply click the install button in the address bar of your browser or in the top left corner of the page to install the application on your device.
+To use the web-based version no installation is required. Simply navigate to the deployed application [URL](https://ancient-castle-83069-60b0fc05b9bd.herokuapp.com/) and begin using the app in your browser.
 
 
 ## Technologies
 
 <div style="display:flex; align-items:center">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="width:100px;height:auto;padding:50px;"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" style="width:100px;height:auto;padding:50px;"/>
-<img style="width:100px;height:auto;"><i class="devicon-webpack-plain-wordmark" style=font-size:9rem></i></img>
-          
+<img style="width:100px;height:auto;"><i class="devicon-javascript-plain" style=font-size:7rem></i></img>
+<img style="width:100px;height:auto;"><i class="devicon-nodejs-plain-wordmark" style=font-size:8rem></i></img>
+<img style="width:100px;height:auto;"><i class="devicon-mongodb-plain-wordmark" style=font-size:8rem></i></img>
+<img style="width:100px;height:auto;"><i class="devicon-graphql-plain-wordmark" style=font-size:8rem></i></img>
+<img style="width:100px;height:auto;"><i class="devicon-react-original-wordmark" style=font-size:7rem></i></img>
+<img style="width:100px;height:auto;"> </img>
 </div>          
 
 
 ## Demo
 
 
-<img src="./assets/jate-demo.gif" style="width:900px;height:auto">
+<img src="./client/public/assets/google_books.gif" style="width:900px;height:auto">
  
           
           
 
-Follow me to the [Deployed Application](https://rocky-lake-08346-97f05045468c.herokuapp.com/)
+Follow me to the [Deployed Application](https://ancient-castle-83069-60b0fc05b9bd.herokuapp.com/)
 
 
 ## Contributors
@@ -78,11 +80,11 @@ Adam Brannon
 
 ## Feedback and Support
 
-If you encounter any issues while using the PWA Text Editor App or have any suggestions for improvement, please [open an issue](https://github.com/adam-brannon09/PWA_Text_Editor/issues) on the GitHub repository. I appreciate your feedback and will address any concerns as soon as possible.
+If you encounter any issues while using the Google Books API Application or have any suggestions for improvement, please [open an issue](https://github.com/adam-brannon09/google_books_api/issues) on the GitHub repository. I appreciate your feedback and will address any concerns as soon as possible.
 
 ## License
 
-The PWA Text Editor Backend is released under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute this application as per the terms of this license.
+The Google Books API Application is released under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute this application as per the terms of this license.
 
 
 <div align="center">
